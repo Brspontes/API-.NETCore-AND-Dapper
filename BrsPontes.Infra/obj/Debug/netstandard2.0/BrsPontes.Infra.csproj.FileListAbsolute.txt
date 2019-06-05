@@ -1,0 +1,9 @@
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Infra\bin\Debug\netstandard2.0\BrsPontes.Infra.deps.json
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Infra\bin\Debug\netstandard2.0\BrsPontes.Infra.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Infra\bin\Debug\netstandard2.0\BrsPontes.Infra.pdb
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Infra\obj\Debug\netstandard2.0\BrsPontes.Infra.csprojAssemblyReference.cache
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Infra\obj\Debug\netstandard2.0\BrsPontes.Infra.csproj.CoreCompileInputs.cache
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Infra\obj\Debug\netstandard2.0\BrsPontes.Infra.AssemblyInfoInputs.cache
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Infra\obj\Debug\netstandard2.0\BrsPontes.Infra.AssemblyInfo.cs
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Infra\obj\Debug\netstandard2.0\BrsPontes.Infra.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Infra\obj\Debug\netstandard2.0\BrsPontes.Infra.pdb

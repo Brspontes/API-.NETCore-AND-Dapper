@@ -1,0 +1,14 @@
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.API.deps.json
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.API.runtimeconfig.json
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.API.runtimeconfig.dev.json
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.API.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.API.pdb
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.csprojAssemblyReference.cache
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.csproj.CoreCompileInputs.cache
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.RazorAssemblyInfo.cache
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.RazorAssemblyInfo.cs
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.AssemblyInfoInputs.cache
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.AssemblyInfo.cs
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.RazorTargetAssemblyInfo.cache
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.pdb

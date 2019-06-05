@@ -1,0 +1,14 @@
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\bin\Debug\netcoreapp2.2\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\bin\Debug\netcoreapp2.2\BrsPontes.Tests.deps.json
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\bin\Debug\netcoreapp2.2\BrsPontes.Tests.runtimeconfig.json
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\bin\Debug\netcoreapp2.2\BrsPontes.Tests.runtimeconfig.dev.json
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\bin\Debug\netcoreapp2.2\BrsPontes.Tests.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\bin\Debug\netcoreapp2.2\BrsPontes.Tests.pdb
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\obj\Debug\netcoreapp2.2\BrsPontes.Tests.csprojAssemblyReference.cache
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\obj\Debug\netcoreapp2.2\BrsPontes.Tests.csproj.CoreCompileInputs.cache
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\obj\Debug\netcoreapp2.2\BrsPontes.Tests.AssemblyInfoInputs.cache
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\obj\Debug\netcoreapp2.2\BrsPontes.Tests.AssemblyInfo.cs
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\obj\Debug\netcoreapp2.2\BrsPontes.Tests.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\obj\Debug\netcoreapp2.2\BrsPontes.Tests.pdb
