@@ -1636,6 +1636,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "BrsPontes.Shared": "1.0.0",
           "FluentValidator": "2.0.4"
         },
         "compile": {
@@ -1643,6 +1644,16 @@
         },
         "runtime": {
           "bin/placeholder/BrsPontes.Domain.dll": {}
+        }
+      },
+      "BrsPontes.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BrsPontes.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BrsPontes.Shared.dll": {}
         }
       }
     }
@@ -5840,6 +5851,11 @@
       "type": "project",
       "path": "../BrsPontes.Domain/BrsPontes.Domain.csproj",
       "msbuildProject": "../BrsPontes.Domain/BrsPontes.Domain.csproj"
+    },
+    "BrsPontes.Shared/1.0.0": {
+      "type": "project",
+      "path": "../BrsPontes.Shared/BrsPontes.Shared.csproj",
+      "msbuildProject": "../BrsPontes.Shared/BrsPontes.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {

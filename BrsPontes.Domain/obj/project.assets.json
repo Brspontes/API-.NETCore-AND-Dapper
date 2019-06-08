@@ -37,6 +37,16 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
+      },
+      "BrsPontes.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BrsPontes.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BrsPontes.Shared.dll": {}
+        }
       }
     }
   },
@@ -194,10 +204,16 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
+    },
+    "BrsPontes.Shared/1.0.0": {
+      "type": "project",
+      "path": "../BrsPontes.Shared/BrsPontes.Shared.csproj",
+      "msbuildProject": "../BrsPontes.Shared/BrsPontes.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "BrsPontes.Shared >= 1.0.0",
       "FluentValidator >= 2.0.4",
       "NETStandard.Library >= 2.0.3"
     ]
@@ -231,7 +247,11 @@
       },
       "frameworks": {
         "netstandard2.0": {
-          "projectReferences": {}
+          "projectReferences": {
+            "Z:\\GITHUB\\API-.NETCore-AND-Dapper\\BrsPontes.Shared\\BrsPontes.Shared.csproj": {
+              "projectPath": "Z:\\GITHUB\\API-.NETCore-AND-Dapper\\BrsPontes.Shared\\BrsPontes.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
