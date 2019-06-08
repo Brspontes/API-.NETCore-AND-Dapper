@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BrsPontes.Domain.StoreContext.ValuesObjects;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,26 +7,26 @@ namespace BrsPontes.Domain.StoreContext.Entitys
 {
     public class Customer
     {
-        public Customer(string firstName, string lastName, string document, string email, string phone, string address)
+        public Customer(Name name, Document document, Email email, string phone, string shippingAddress, string billingAddress)
         {
-            FirstName = firstName;
-            LastName = lastName;
+            Name = name;
             Document = document;
             Email = email;
             Phone = phone;
-            Address = address;
+            ShippingAddress = shippingAddress;
+            BillingAddress = billingAddress;
         }
 
-        public string FirstName { get; private set; }
-        public string LastName { get; private set; }
-        public string Document { get; private set; }
-        public string Email { get; private set; }
+        public Name Name { get; private set; }
+        public Document Document { get; private set; }
+        public Email Email { get; private set; }
         public string Phone { get; private set; }
-        public string Address { get; private set; }
+        public string ShippingAddress { get; private set; }
+        public string BillingAddress { get; private set; }
 
         public override string ToString()
         {
-            return $"{FirstName} {LastName}";
+            return Name.ToString();
         }
     }
 }
