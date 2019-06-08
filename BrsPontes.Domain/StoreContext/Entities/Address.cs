@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace BrsPontes.Domain.StoreContext.Entitys
+namespace BrsPontes.Domain.StoreContext.Entities
 {
     public class Address
     {
@@ -29,5 +29,10 @@ namespace BrsPontes.Domain.StoreContext.Entitys
         public string Country { get; private set; }
         public string ZipCode { get; private set; }
         public EAddressType Type { get; private set; }
+
+        public override string ToString()
+        {
+            return $"{Street}, {Number} - {City}/{State}";
+        }
     }
 }

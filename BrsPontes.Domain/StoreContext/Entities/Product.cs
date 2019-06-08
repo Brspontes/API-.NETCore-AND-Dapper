@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BrsPontes.Domain.StoreContext.Entitys
+namespace BrsPontes.Domain.StoreContext.Entities
 {
     public class Product
     {

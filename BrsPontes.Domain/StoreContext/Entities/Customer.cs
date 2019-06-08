@@ -1,28 +1,36 @@
 ﻿using BrsPontes.Domain.StoreContext.ValuesObjects;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
-namespace BrsPontes.Domain.StoreContext.Entitys
+namespace BrsPontes.Domain.StoreContext.Entities
 {
     public class Customer
     {
-        public Customer(Name name, Document document, Email email, string phone, string shippingAddress, string billingAddress)
+        private readonly IList<Address> _addresses;
+
+        public Customer(Name name, Document document, Email email, string phone)
         {
             Name = name;
             Document = document;
             Email = email;
             Phone = phone;
-            ShippingAddress = shippingAddress;
-            BillingAddress = billingAddress;
+            _addresses = new List<Address>();
         }
 
         public Name Name { get; private set; }
         public Document Document { get; private set; }
         public Email Email { get; private set; }
         public string Phone { get; private set; }
-        public string ShippingAddress { get; private set; }
-        public string BillingAddress { get; private set; }
+        public IReadOnlyCollection<Address> Addresses => _addresses.ToArray();
+
+        public void AddAddress(Address address)
+        {
+            //Validar o endereço
+            //Adicionar endereço
+            _addresses.Add(address);
+        }
 
         public override string ToString()
         {

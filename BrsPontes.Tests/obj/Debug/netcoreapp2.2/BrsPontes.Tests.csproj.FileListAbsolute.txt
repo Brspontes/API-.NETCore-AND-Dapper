@@ -12,3 +12,6 @@ Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\obj\Debug\netcoreapp2.2\BrsPon
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\obj\Debug\netcoreapp2.2\BrsPontes.Tests.AssemblyInfo.cs
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\obj\Debug\netcoreapp2.2\BrsPontes.Tests.dll
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\obj\Debug\netcoreapp2.2\BrsPontes.Tests.pdb
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\bin\Debug\netcoreapp2.2\BrsPontes.Domain.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\bin\Debug\netcoreapp2.2\BrsPontes.Domain.pdb
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Tests\obj\Debug\netcoreapp2.2\BrsPontes.Tests.csproj.CopyComplete
