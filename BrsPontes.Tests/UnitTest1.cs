@@ -1,3 +1,4 @@
+using BrsPontes.Domain.StoreContext.Entitys;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace BrsPontes.Tests
@@ -8,6 +9,8 @@ namespace BrsPontes.Tests
         [TestMethod]
         public void TestMethod1()
         {
+            var c = new Customer("Brian", "Pontes", "42071121899", "brian.robert16@hotmail.com", "15 981048031", "Juarez Ferreira 472");
+            var order = new Order(c);
         }
     }
 }

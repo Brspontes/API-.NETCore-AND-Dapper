@@ -1619,6 +1619,16 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {}
         }
+      },
+      "BrsPontes.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/BrsPontes.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BrsPontes.Domain.dll": {}
+        }
       }
     }
   },
@@ -5798,10 +5808,16 @@
         "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512",
         "system.xml.xpath.xmldocument.nuspec"
       ]
+    },
+    "BrsPontes.Domain/1.0.0": {
+      "type": "project",
+      "path": "../BrsPontes.Domain/BrsPontes.Domain.csproj",
+      "msbuildProject": "../BrsPontes.Domain/BrsPontes.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
+      "BrsPontes.Domain >= 1.0.0",
       "MSTest.TestAdapter >= 1.4.0",
       "MSTest.TestFramework >= 1.4.0",
       "Microsoft.NET.Test.Sdk >= 16.0.1",
@@ -5837,7 +5853,11 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {}
+          "projectReferences": {
+            "Z:\\GITHUB\\API-.NETCore-AND-Dapper\\BrsPontes.Domain\\BrsPontes.Domain.csproj": {
+              "projectPath": "Z:\\GITHUB\\API-.NETCore-AND-Dapper\\BrsPontes.Domain\\BrsPontes.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
