@@ -1,11 +1,12 @@
 ﻿using BrsPontes.Domain.StoreContext.Enums;
+using FluentValidator;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace BrsPontes.Domain.StoreContext.Entities
 {
-    public class Delivery
+    public class Delivery : Notifiable
     {
         public Delivery(DateTime stimatedDeliveryDate)
         {

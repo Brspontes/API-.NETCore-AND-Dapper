@@ -1,10 +1,11 @@
-﻿using System;
+﻿using FluentValidator;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace BrsPontes.Domain.StoreContext.Entities
 {
-    public class Product
+    public class Product : Notifiable
     {
         public Product(string title, string description, string image, decimal price, decimal quantityOnHand)
         {

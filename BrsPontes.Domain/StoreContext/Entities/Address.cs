@@ -1,11 +1,12 @@
 ﻿using BrsPontes.Domain.StoreContext.Enums;
+using FluentValidator;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace BrsPontes.Domain.StoreContext.Entities
 {
-    public class Address
+    public class Address : Notifiable
     {
         public Address(string street, string number, string complement, string district, string city, string state, string country, string zipCode, EAddressType type)
         {
