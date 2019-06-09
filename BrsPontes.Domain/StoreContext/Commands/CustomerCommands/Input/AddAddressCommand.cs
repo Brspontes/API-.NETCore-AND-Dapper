@@ -1,11 +1,13 @@
 ﻿using BrsPontes.Domain.StoreContext.Enums;
+using BrsPontes.Shared.Commands;
+using FluentValidator;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace BrsPontes.Domain.StoreContext.Commands.CustomerCommands.Input
 {
-    public class AddAddressCommand
+    public class AddAddressCommand : Notifiable, ICommands
     {
         public Guid Id { get; set; }
         public string Street { get; set; }
@@ -17,5 +19,10 @@ namespace BrsPontes.Domain.StoreContext.Commands.CustomerCommands.Input
         public string Country { get; set; }
         public string ZipCode { get; set; }
         public EAddressType Type { get; set; }
+
+        bool ICommands.Valid()
+        {
+            return Valid;
+        }
     }
 }
