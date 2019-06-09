@@ -1,4 +1,5 @@
 ﻿using BrsPontes.Domain.StoreContext.ValuesObjects;
+using BrsPontes.Shared.Entities;
 using FluentValidator;
 using System;
 using System.Collections.Generic;
@@ -7,7 +8,7 @@ using System.Text;
 
 namespace BrsPontes.Domain.StoreContext.Entities
 {
-    public class Customer : Notifiable
+    public class Customer : Entity
     {
         private readonly IList<Address> _addresses;
 

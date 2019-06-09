@@ -7,3 +7,6 @@ Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Domain\obj\Debug\netstandard2.0\BrsP
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Domain\obj\Debug\netstandard2.0\BrsPontes.Domain.AssemblyInfo.cs
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Domain\obj\Debug\netstandard2.0\BrsPontes.Domain.dll
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Domain\obj\Debug\netstandard2.0\BrsPontes.Domain.pdb
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Domain\bin\Debug\netstandard2.0\BrsPontes.Shared.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Domain\bin\Debug\netstandard2.0\BrsPontes.Shared.pdb
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Domain\obj\Debug\netstandard2.0\BrsPontes.Domain.csproj.CopyComplete

@@ -41,6 +41,9 @@
       "BrsPontes.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "FluentValidator": "2.0.4"
+        },
         "compile": {
           "bin/placeholder/BrsPontes.Shared.dll": {}
         },

@@ -1028,10 +1028,19 @@
       },
       "BrsPontes.Domain/1.0.0": {
         "dependencies": {
+          "BrsPontes.Shared": "1.0.0",
           "FluentValidator": "2.0.4"
         },
         "runtime": {
           "BrsPontes.Domain.dll": {}
+        }
+      },
+      "BrsPontes.Shared/1.0.0": {
+        "dependencies": {
+          "FluentValidator": "2.0.4"
+        },
+        "runtime": {
+          "BrsPontes.Shared.dll": {}
         }
       }
     }
@@ -1540,6 +1549,11 @@
       "hashPath": "system.xml.xpath.xmldocument.4.0.1.nupkg.sha512"
     },
     "BrsPontes.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BrsPontes.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
