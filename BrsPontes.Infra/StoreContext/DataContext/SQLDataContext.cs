@@ -10,7 +10,7 @@ namespace BrsPontes.Infra.StoreContext.DataContext
     {
         public SqlConnection Connection { get; set; }
 
-        public DataContext()
+        public SQLDataContext()
         {
             Connection = new SqlConnection(Settings.ConnectionString);
             Connection.Open();

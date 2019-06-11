@@ -12,3 +12,8 @@ Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPonte
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.RazorTargetAssemblyInfo.cache
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.dll
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.pdb
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.Domain.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.Shared.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.Domain.pdb
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.Shared.pdb
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.csproj.CopyComplete

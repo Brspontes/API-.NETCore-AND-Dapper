@@ -8,6 +8,7 @@ using System.Data.SqlClient;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using BrsPontes.Domain.StoreContext.Queries;
 
 namespace BrsPontes.Infra.StoreContext.Repositories
 {
@@ -32,6 +33,13 @@ namespace BrsPontes.Infra.StoreContext.Repositories
             return _context.Connection.Query<bool>("spCheckEmail",
                  new { Email = email },
                  commandType: CommandType.StoredProcedure).FirstOrDefault();
+        }
+
+        public CustomerOrdersCountResult GetCustomerOrdersCountResult(string document)
+        {
+            return _context.Connection.Query<CustomerOrdersCountResult>("spGetCustomerOrdersCount",
+                new { Document = document },
+                commandType: CommandType.StoredProcedure).FirstOrDefault();
         }
 
         public void Save(Customer customer)
