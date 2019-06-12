@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BrsPontes.Domain.StoreContext.Repositories;
+using BrsPontes.Domain.StoreContext.Services;
+using BrsPontes.Infra.StoreContext.DataContext;
+using BrsPontes.Infra.StoreContext.Repositories;
+using BrsPontes.Infra.StoreContext.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -16,6 +21,9 @@ namespace BrsPontes.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddScoped<SQLDataContext, SQLDataContext>();
+            services.AddTransient<ICustomerRepository, CustomerRepository>();
+            services.AddTransient<IEmailServices, EmailService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

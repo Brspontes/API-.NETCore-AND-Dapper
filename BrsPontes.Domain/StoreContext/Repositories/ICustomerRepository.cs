@@ -12,5 +12,8 @@ namespace BrsPontes.Domain.StoreContext.Repositories
         bool CheckEmail(string email);
         void Save(Customer customer);
         CustomerOrdersCountResult GetCustomerOrdersCountResult(string document);
+        IEnumerable<ListCustomerQueryResult> Get();
+        GetCustomerQueryResult Get(Guid Id);
+        IEnumerable<ListCustomerOrderResult> GetOrders(Guid Id);
     }
 }

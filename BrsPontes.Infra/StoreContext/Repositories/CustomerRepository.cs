@@ -35,11 +35,33 @@ namespace BrsPontes.Infra.StoreContext.Repositories
                  commandType: CommandType.StoredProcedure).FirstOrDefault();
         }
 
+        public IEnumerable<ListCustomerQueryResult> Get()
+        {
+            return _context.Connection.Query<ListCustomerQueryResult>(
+                "SELECT [Id], CONCAT([FirstName], ' ', [LastName]) AS NAME, [Document], [Email] FROM [Customer]", new { }
+                 ).ToList();
+        }
+
+        public GetCustomerQueryResult Get(Guid Id)
+        {
+            return _context.Connection.Query<GetCustomerQueryResult>(
+               "SELECT [Id], CONCAT([FirstName], ' ', [LastName]) AS NAME, [Document], [Email] FROM [Customer]" +
+               "WHERE [Id] = @Id", new { Id = Id }
+                ).FirstOrDefault();
+        }
+
         public CustomerOrdersCountResult GetCustomerOrdersCountResult(string document)
         {
             return _context.Connection.Query<CustomerOrdersCountResult>("spGetCustomerOrdersCount",
                 new { Document = document },
                 commandType: CommandType.StoredProcedure).FirstOrDefault();
+        }
+
+        public IEnumerable<ListCustomerOrderResult> GetOrders(Guid Id)
+        {
+            return _context.Connection.Query<ListCustomerOrderResult>(
+                 "SELECT [Id], CONCAT([FirstName], ' ', [LastName]) AS NAME, [Document], [Email] FROM [Customer]", new { }
+                  ).ToList();
         }
 
         public void Save(Customer customer)

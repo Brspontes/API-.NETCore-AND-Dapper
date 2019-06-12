@@ -3,31 +3,41 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BrsPontes.Domain.StoreContext.Entities;
+using BrsPontes.Domain.StoreContext.Queries;
+using BrsPontes.Domain.StoreContext.Repositories;
+using BrsPontes.Domain.StoreContext.ValuesObjects;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BrsPontes.API.Controllers
 {
     public class CustomerController : Controller
     {
+        private readonly ICustomerRepository _customerRepository;
+
+        public CustomerController(ICustomerRepository customerRepository)
+        {
+            _customerRepository = customerRepository;
+        }
+
         [HttpGet]
         [Route("customers")]
-        public List<Customer> Get()
+        public IEnumerable<ListCustomerQueryResult> Get()
         {
-            return null;
+            return _customerRepository.Get();
         }
 
         [HttpGet]
         [Route("customers/{id}")]
-        public Customer GetById(Guid id)
+        public GetCustomerQueryResult GetById(Guid id)
         {
-            return null;
+            return _customerRepository.Get(id);
         }
 
         [HttpGet]
         [Route("customers/{id}/orders")]
-        public List<Order> GetOrders()
+        public IEnumerable<ListCustomerOrderResult> GetOrders(Guid Id)
         {
-            return null;
+            return _customerRepository.GetOrders(Id);
         }
 
         [HttpPost]
