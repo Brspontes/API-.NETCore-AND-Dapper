@@ -44,12 +44,18 @@ namespace BrsPontes.Domain.StoreContext.Handlers
             AddNotifications(customer.Notifications);
 
             if (Invalid)
-                return null;
+                return new CommandResult(false, "Algo de errado não deu certo!!", Notifications);
 
             _repository.Save(customer);
             _emailServices.Send(email.Address, "brian.robert16@hotmail.com", "Wellcome", "Envio de email teste C#");
 
-            return new CreateCustomerCommandResult(customer.Id, name.ToString(), email.Address);
+            return new CommandResult(true, "Bem vindo", 
+                new
+                {
+                    Id = customer.Id,
+                    Name = name.ToString(),
+                    Email = email.Address
+                });
         }
 
         public ICommandResult Handle(AddAddressCommand command)

@@ -17,3 +17,5 @@ Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPonte
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.Domain.pdb
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.Shared.pdb
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\obj\Debug\netcoreapp2.2\BrsPontes.API.csproj.CopyComplete
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.Infra.dll
+Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.API\bin\Debug\netcoreapp2.2\BrsPontes.Infra.pdb

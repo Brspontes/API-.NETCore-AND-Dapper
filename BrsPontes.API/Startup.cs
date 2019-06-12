@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BrsPontes.Domain.StoreContext.Handlers;
 using BrsPontes.Domain.StoreContext.Repositories;
 using BrsPontes.Domain.StoreContext.Services;
 using BrsPontes.Infra.StoreContext.DataContext;
@@ -21,9 +22,11 @@ namespace BrsPontes.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+            services.AddResponseCompression();//REQUISIÇÕES COMPACTADAS, MENOR CONSUMO DE DADOS
             services.AddScoped<SQLDataContext, SQLDataContext>();
             services.AddTransient<ICustomerRepository, CustomerRepository>();
             services.AddTransient<IEmailServices, EmailService>();
+            services.AddTransient<CustomerHandler, CustomerHandler>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -33,7 +36,9 @@ namespace BrsPontes.API
             {
                 app.UseDeveloperExceptionPage();
             }
+            
             app.UseMvc();
+            app.UseResponseCompression();
         }
     }
 }

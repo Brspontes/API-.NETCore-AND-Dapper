@@ -13053,6 +13053,7 @@
       "FluentValidator >= 2.0.4",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
+      "Microsoft.AspNetCore.ResponseCompression >= 2.2.0",
       "Microsoft.NETCore.App >= 2.2.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 2.2.3"
     ]
@@ -13120,6 +13121,10 @@
           },
           "Microsoft.AspNetCore.Razor.Design": {
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.2.0, )"
+          },
+          "Microsoft.AspNetCore.ResponseCompression": {
             "target": "Package",
             "version": "[2.2.0, )"
           },
