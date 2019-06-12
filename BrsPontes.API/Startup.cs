@@ -12,6 +12,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
+using Swashbuckle.AspNetCore.Swagger;
 
 namespace BrsPontes.API
 {
@@ -27,6 +28,10 @@ namespace BrsPontes.API
             services.AddTransient<ICustomerRepository, CustomerRepository>();
             services.AddTransient<IEmailServices, EmailService>();
             services.AddTransient<CustomerHandler, CustomerHandler>();
+            services.AddSwaggerGen(x =>
+            {
+                x.SwaggerDoc("V1", new Info { Title = "Projeto API com Dapper", Version = "V1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -36,9 +41,15 @@ namespace BrsPontes.API
             {
                 app.UseDeveloperExceptionPage();
             }
-            
+
             app.UseMvc();
             app.UseResponseCompression();
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Test.Web.Api");
+            });
         }
     }
 }

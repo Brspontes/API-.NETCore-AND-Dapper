@@ -1,7 +1,6 @@
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Shared\bin\Debug\netstandard2.0\BrsPontes.Shared.deps.json
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Shared\bin\Debug\netstandard2.0\BrsPontes.Shared.dll
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Shared\bin\Debug\netstandard2.0\BrsPontes.Shared.pdb
-Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Shared\obj\Debug\netstandard2.0\BrsPontes.Shared.csprojAssemblyReference.cache
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Shared\obj\Debug\netstandard2.0\BrsPontes.Shared.csproj.CoreCompileInputs.cache
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Shared\obj\Debug\netstandard2.0\BrsPontes.Shared.AssemblyInfoInputs.cache
 Z:\GITHUB\API-.NETCore-AND-Dapper\BrsPontes.Shared\obj\Debug\netstandard2.0\BrsPontes.Shared.AssemblyInfo.cs
